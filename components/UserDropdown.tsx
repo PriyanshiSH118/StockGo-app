@@ -35,7 +35,7 @@ const UserDropdown = () => {
                   </AvatarFallback>
               </Avatar>
                   <div className="hidden md:flex flex-col items-start">
-                      <span className="text-=base font-medium text-gray-400">
+                      <span className="text-base font-medium text-gray-400">
                           {user.name}
                       </span>
                   </div>
@@ -51,7 +51,7 @@ const UserDropdown = () => {
                       </AvatarFallback>
                   </Avatar>
                   <div className="flex flex-col items-start">
-                      <span className="text-=base font-medium text-gray-400">
+                      <span className="text-base font-medium text-gray-400">
                           {user.name}
                       </span>
                       <span className="text-sm text-gray-500">{user.email}</span>
@@ -59,7 +59,7 @@ const UserDropdown = () => {
               </div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator className="bg-gray-600"/>
-              <DropdownMenuItem onClick={handleSignOut} className={"text-gray-100 text-md font-medium focus:bg-transparent focus:text-yellow-500transition-colors cursor-pointer"}>
+              <DropdownMenuItem onClick={handleSignOut} className={"text-gray-100 text-md font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer"}>
                 <LogOut className="h-8 w-8 mr-2 hidden sm:block"/>
                   Logout
               </DropdownMenuItem>
